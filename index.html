@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>My Makhyasing Portfolio</title>
+    <style>
+        .bg-image{
+            background-image: url("./image/pexels-goumbik-574071.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-repeat:no-repeat ;
+        }
+    </style>
   </head>
   <body>
-    <nav class="p-5 flex items-center justify-around shadow-md">
+    <nav class="p-5 flex items-center justify-around shadow-md bg-transparent fixed w-full">
         <h1 class="text-3xl font-bold">Makhyasing</h1>
-        <ul class="flex gap-10">
+        <ul class="flex gap-10 text-white">
             <li><a href="">Home</a></li>
             <li><a href="">Service</a></li>
             <li><a href="">About</a></li>
@@ -17,6 +25,17 @@
             <li><a href="">Contact</a></li>
         </ul>
     </nav>
+    <header class="bg-image flex items-end justify-around">
+        <div class="w-1/2 pb-52 space-y-6">
+            <h3 class="text-slate-200text-2xl">Makhyasing Chowdhury</h3>
+            <h1 class="text-6xl text-white font-bold">I am a Web Designer</h1>
+            <p class="text-x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ad et! A vitae voluptates eligendi mollitia, laboriosam fuga illum dolor amet quia illo cum perferendis molestiae? Ipsa consectetur aliquam quo!</p>
+            <button class="p-3 text-white border-white border rounded-md">Go To Portfolio</button>
+        </div>
+        
+            <img class="w-[70%]" w-full src="./image/d.png" alt="">
+       
+    </header>
     </h1>
   </body>
 </html>
